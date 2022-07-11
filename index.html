@@ -1,0 +1,34 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/matter.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js e player.js-->
+<script src="js/game.js"></script>
+<script src="js/player.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+
+<!--Adicione configuração do banco de dados abaixo-->
+<script>
+const firebaseConfig = {
+  apiKey: "AIzaSyADNxyFR0YvbiMGQ8mh1duhiDQvnKoNGKU",
+  authDomain: "cesta-7518f.firebaseapp.com",
+  databaseURL: "https://cesta-7518f-default-rtdb.firebaseio.com",
+  projectId: "cesta-7518f",
+  storageBucket: "cesta-7518f.appspot.com",
+  messagingSenderId: "1031715472669",
+  appId: "1:1031715472669:web:cc3d80cd1d5985d9920df4"
+};
+firebase.initializeApp(firebaseConfig)
+</script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+  
+</body></html>
